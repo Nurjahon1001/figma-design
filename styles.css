@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;1,500;1,600&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Zen+Kurenaido&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@400;600;800&family=Lora:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@400;600;800&family=Lora:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Zen+Kurenaido&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* footer part */
+.rectangle {
+    background: #393939;
+}
+
+.rectangleContainer {
+    max-width: 90%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    padding: 1.5em 0;
+}
+
+.newCastSectionLogo {
+    width: 90%;
+}
+
+.newCastSectionPr {
+    color: white;
+    padding: 1.1rem 0 .6rem 0;
+    font-size: .8rem;
+    line-height: 1.15rem;
+    font-family: 'Fredoka';
+}
+
+.footerSocialMedias {
+    display: flex;
+}
+
+.footerSocialMedias i {
+    width: 2.6rem;
+    height: 2.6rem;
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-right: 1.6rem;
+    display: grid;
+    place-items: center;
+}
+
+.PhotoGalleryImages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.PhotoGalleryImg {
+    width: 32%;
+    height: 4.6rem;
+}
+
+.PhotoGalleryPr {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: .2em;
+}
+
+.linear {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.linearRed {
+    width: 20%;
+    height: 1px;
+    background-color: crimson;
+}
+
+.tagNames {
+    margin-top: 1.2rem;
+}
+
+.tagNames span {
+    color: white;
+    font-family: 'Fredoka';
+    padding: .25rem .5rem;
+    font-size: .8rem;
+}
+
+.stayInTouchBtn {
+    font-family: 'Fredoka';
+    width: 100%;
+    height: 1.9rem;
+    color: #C4C4C4;
+    border: none;
+    border-radius: .1rem;
+    font-size: .7rem;
+}
+
+.instagramFollowUs {
+    display: flex;
+}
+
+.instagramFollowUs img {
+    width: 20%;
+    height: 14rem;
+}
+
+.followUs {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #c23786a1;
+    color: white;
+    text-align: center;
+    padding: 2rem 1.3rem;
+    position: absolute;
+    top: 30%;
+    left: 46%;
+}
+
+.followUs span {
+    font-family: 'Fredoka';
+    font-weight: 500;
+}
+
+.followUs i {
+    font-size: 1.6rem;
+}
+
+/* life style part */
+
+.lifestyle {
+    font-family: 'Oswald' !important;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1.8rem;
+}
+
+.lifestyleSpans span {
+    margin-right: .4rem;
+    font-family: 'Oswald' !important;
+    font-size: .75rem;
+    padding: .2rem .6rem;
+}
+
+.lifeStyleMain {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.lifeStyleMainFirstSection {
+    height: 13rem;
+    padding: 1rem 1.5rem;
+    background: url(https://images.unsplash.com/photo-1576671081837-49000212a370?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1098);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sportBg {
+    background: url(https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3RhZGl1bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lifeStyleMainSecondSection {
+    height: 13rem;
+    padding: 1rem 1.5rem;
+    background: url(https://images.unsplash.com/photo-1527613426441-4da17471b66d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.label {
+    color: white;
+    font-family: 'Fredoka';
+    padding: .25rem .5rem;
+    font-size: .8rem;
+}
+
+.carigBator {
+    font-family: 'Fredoka';
+    font-size: .8rem;
+    margin-top: .8rem;
+    margin-bottom: 0;
+}
+
+.lifeStyleMainTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.lifeStyleMainSubtitle {
+    color: rgba(57, 57, 57, 0.6);
+    font-family: 'Fredoka';
+    margin: 0;
+    font-size: .8rem;
+}
+
+.lifeStylePost {
+    display: flex;
+    margin-top: 1.2rem;
+}
+
+.postImg {
+    width: 7.5rem;
+    margin-right: 1rem;
+}
+
+.tabImage {
+    width: 29%;
+    height: 4rem;
+    margin-right: .8rem;
+}
+
+.sportPostImg {
+    width: 6rem;
+    height: 4rem;
+}
+
+.lifeStylePostTitle {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-right: 2.5rem;
+    margin: 0;
+    line-height: 1.8rem;
+}
+
+.sportPostTitle {
+    font-size: .9rem;
+    line-height: 1.3rem;
+    padding-right: 4rem;
+}
+
+.tabPostTitle {
+    font-size: .8rem;
+    line-height: 1rem;
+    padding-top: .3rem;
+}
+
+.Ad {
+    background: linear-gradient(0deg, rgba(25, 0, 33, 0.742), rgba(37, 0, 39, 0.783)), url(.jpg), url(https://images.unsplash.com/photo-1483884105135-c06ea81a7a80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybCUyMGFsb25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.adParagraphs p {
+    margin: 0;
+    color: white;
+    font-family: 'Fredoka';
+    font-size: .8rem;
+}
+
+.adBtn {
+    border: none;
+    color: white;
+    background-color: #EF5043;
+    text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    font-family: 'Fredoka';
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.getLatestUpdatesRectangle {
+    max-width: 100%;
+    height: 10.5rem;
+    background-color: #DEDADA;
+    padding: 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.categories span,
+.categories span i {
+    font-family: 'Fredoka';
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.categoriesNumberSpan {
+    font-family: 'Fredoka';
+    height: 1.3rem;
+    width: 1.5rem;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: .6rem !important;
+    font-weight: 400 !important;
+}
+
+.stayConnected {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .7rem;
+}
+
+.stayConnectedDiv {
+    width: 100%;
+    height: 2.3rem;
+    padding: .5rem 1rem;
+    color: white;
+    font-size: .45rem;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.stayConnectedDiv div p {
+    font-family: 'Fredoka';
+}
+
+.sportAd {
+    width: 100%;
+    height: 16rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.jpg), url(./assets/sport/sportAd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    margin: 1rem 0;
+}
+
+.sportAdSpan {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Lora';
+}
+
+.dontMissBG {
+    background: url(https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tabLink {
+    color: black !important;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none !important;
+}
+
+.nav .nav-item .active {
+    color: #EF5043 !important;
+}
+
+.entertainmentBg {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1572975165675-ab322e4b55ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvbGx5d29vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+}
+
+.entertainmentPr {
+    padding: 14rem 0 2rem 0;
+    color: white;
+}
+
+.lifeStylePostBg {
+    width: 35%;
+    height: 4rem;
+    margin-right: .9rem;
+    background: url(https://images.unsplash.com/photo-1594909122845-11baa439b7bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmlsbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second {
+    background: url(https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmlsbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third {
+    width: 50%;
+    background: url(https://images.unsplash.com/photo-1543536448-d209d2d13a1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1.5rem;
+}
+
+.topSectionSecondMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.topSectionPostBg {
+    width: 100%;
+    height: 7.5rem;
+    padding: .4rem 1rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topSectionPostTitle {
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+    text-transform: capitalize;
+}
+
+.tSecond {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=884);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tThird {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tFourth {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1527613426441-4da17471b66d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topSectionMainFirst {
+    height: 18.5rem;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topSectionMainTitle {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-right: 8rem;
+    line-height: 2.5rem;
+}
+
+.navbar {
+    height: 3.5rem;
+    background-color: #393939 !important;
+    color: white !important;
+    margin: 1.5rem 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarCollapse{
+    display: flex;
+    justify-content: end !important;
+}
+
+.navbar ul li {
+    padding-right: .5rem;
+    display: grid;
+    place-items: center;
+    font-size: 1.1rem;
+}
+
+.navbar ul li a {
+    color: rgba(255, 255, 255, 0.881) !important;
+}
+
+.homeLink {
+    height: 3.5rem;
+    background-color: #f65050;
+    display: grid;
+    place-items: center;
+}
+
+.navbar form {
+    height: 3.5rem;
+    border-left: 1px solid #5e5d5d;
+    margin-left: 10rem;
+}
+
+.navbar form input {
+    height: 3.5rem;
+    font-family: "Fredoka", sans-serif;
+    background: #393939;
+    color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 1.5rem 1rem;
+    font-size: .8rem;
+}
+
+.navbar form i {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.7rem;
+}
+
+.header {
+    height: 7rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerImg {
+    height: 100%;
+}
+
+.ad {
+    background: linear-gradient(0deg, rgba(25, 0, 33, 0.742), rgba(37, 0, 39, 0.783)), url(https://images.unsplash.com/photo-1483884105135-c06ea81a7a80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybCUyMGFsb25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+    height: 5rem;
+    width: 43rem;
+}
+
+.adPr{
+    font-size: .6rem; 
+    margin: 0 0 1rem 1rem; 
+    font-family: 'Fredoka'; 
+    font-weight: 400;
+}
+
+.headerPr {
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.2rem;
+    margin-top: .5rem;
+}

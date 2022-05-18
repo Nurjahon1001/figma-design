@@ -1,0 +1,255 @@
+@media only screen and (max-width: 1200px) {
+    .topSectionPostBg {
+        padding: .5rem;
+        height: 100%;
+    }
+
+    .headerPr {
+        font-size: .5rem;
+        line-height: .9rem;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+
+    .navbar-nav,
+    .form {
+        overflow: hidden;
+    }
+
+    .lifestyle {
+        display: grid;
+        grid-template-columns: 3fr !important;
+    }
+
+    .topSectionPostBg {
+        height: 7rem !important;
+    }
+
+    .lifeStylePostTitle {
+        font-size: .8rem !important;
+        padding-right: 1rem !important;
+        margin: 0;
+        line-height: .9rem !important;
+    }
+
+    .ad {
+        padding: 1rem 2rem;
+        margin: 0 1rem;
+        height: 5rem;
+        width: 30rem;
+    }
+
+    .tabImage {
+        width: 25%;
+        height: 6rem;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    .navbarCollapse {
+    display: flex !important;
+        justify-content: space-between !important;
+        align-items: flex-start;
+        background-color: rgb(85, 85, 85) !important;
+    }
+
+    .navbar ul {
+        background-color: rgb(85, 85, 85) !important;
+        width: 30% !important;
+    }
+
+    .form{
+        width: 50% !important;
+        border: 1px solid gray !important;
+        margin: 1rem 2rem 0 0 !important;
+        border-radius: 5px;
+    }
+
+    .homeLink {
+        background-color: transparent !important;
+    }
+
+    ul li {
+        font-size: .8rem !important;
+        margin-top: 0 !important;
+    }
+
+    .ad {
+        padding: 1rem .8rem !important;
+        margin: 0 .4rem !important;
+        height: 5rem;
+        width: 20rem;
+    }
+
+    .adParagraphs p {
+        font-size: .7rem !important;
+    }
+
+    .adBtn {
+        padding: .5rem;
+        font-family: 'Fredoka';
+        font-weight: 500;
+        font-size: .7rem;
+    }
+
+    .topSection {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 1.5rem;
+    }
+
+    .topSection .topSectionPostBg {
+        height: 9rem !important;
+    }
+
+    .topSectionPostBg {
+        height: 100%;
+    }
+
+
+    .rectangleContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .newCastSectionLogo {
+        width: 60%;
+    }
+
+    .followUs {
+        display: none;
+    }
+
+    .lifestyle {
+        grid-template-columns: 1fr;
+    }
+
+    .lifeStylePostTitle {
+        font-size: 1rem !important;
+        padding-right: 1rem !important;
+        margin: 0;
+        line-height: 1.2rem !important;
+    }
+
+    .lifestyleSpans span {
+        display: none;
+    }
+
+    .carigBator,
+    .carigBator span {
+        font-family: 'Fredoka';
+        font-size: .6rem !important;
+        margin-top: .5rem !important;
+        margin-bottom: 0;
+    }
+
+    .sportPostTitle {
+        font-size: .7rem !important;
+        line-height: 1rem !important;
+    }
+
+    .carigBator {
+        font-family: 'Fredoka';
+        font-size: .6rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 0;
+    }
+
+    .entertainmentPosts {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+
+    .entertainmentPosts .lifeStylePost {
+        width: 25rem !important;
+    }
+
+    .entertainmentPosts .lifeStylePost .lifeStylePostBg {
+        width: 200px !important;
+        height: 5rem !important;
+    }
+
+    .third {
+        width: 10rem !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .rectangleContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .newCastSectionLogo {
+        width: 30%;
+    }
+
+    .lifeStyleMain {
+        margin: .5rem 0 !important;
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .lifestyleSpans {
+        display: none !important;
+    }
+
+    .lifeStylePostTitle {
+        font-size: 1.2rem !important;
+        padding-right: 2rem !important;
+        margin: 0;
+        line-height: 1.3rem !important;
+    }
+
+    .header .topSectionPostBg {
+        display: none !important;
+    }
+
+    .entertainmentPosts .lifeStylePost .lifeStylePostBg {
+        width: 200px !important;
+        height: 5rem !important;
+    }
+
+    p.lifeStylePostTitle.sportPostTitle {
+        font-size: .9rem !important;
+        padding-right: 1rem !important;
+        margin: 0;
+        line-height: 1.2rem !important;
+    }
+
+    .lifeStylePost {
+        margin-top: 1rem !important;
+    }
+
+    .ad {
+        padding: 1rem .8rem !important;
+        margin: 0 .4rem !important;
+        height: 5rem;
+        width: 23rem;
+    }
+
+    .headerImg {
+        width: 7.5rem !important;
+    }
+
+    .carigBator {
+        margin-top: .6rem !important;
+    }
+
+    .topSectionSecondMain {
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .topSectionSecondMain .topSectionPostBg {
+        height: 12rem !important;
+        margin-top: .5rem !important;
+    }
+
+    .entertainment {
+        margin-top: 1.5rem !important;
+    }
+}
