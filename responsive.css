@@ -230,11 +230,11 @@
 @media only screen and (max-width: 550px) {
 
     .headerImg {
-        display: none;
+        width: 100% !important;
     }
 
     .ad {
-        width: 20rem !important;
+        width: 100% !important;
         font-size: 8px !important;
     }
 
