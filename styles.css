@@ -349,10 +349,17 @@
     font-size: 1rem;
     font-weight: 400;
     border: none !important;
+    padding: 0;
 }
 
 .nav .nav-item .active {
     color: #EF5043 !important;
+}
+
+.navUl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .entertainmentBg {
@@ -491,7 +498,7 @@
 .navbar form {
     height: 3.5rem;
     border-left: 1px solid #5e5d5d;
-    margin-left: 10rem;
+    margin-left: 20rem;
 }
 
 .navbar form input {
